@@ -34,7 +34,7 @@
                     </el-tooltip>
                     <el-tooltip class="item" effect="dark" :content="$t('placeholder.Docs')" :open-delay="2000" placement="right">
                         <div>
-                            <a href="http://www.1zlab.com/wiki/micropython-esp32/emp-ide-userguide/" target="_blank">
+                            <a href="http://emp.marlene.top/#/" target="_blank">
                                 <mu-button class="icon-button" icon color="grey" :ripple="false">
                                     <mu-icon size="36" value="book"></mu-icon>
                                 </mu-button>
