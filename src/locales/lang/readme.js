@@ -11,7 +11,11 @@ export default `
 
     在开始使用之前，你需要在你的MicroPython设备上安装 emp-marlene 模块。请按
     照如下的步骤进行：
-    
+    import network # 导入network模块
+    wifi = network.WLAN(network.STA_IF)  # 设置为STA_IF模式，即接入wifi路由器的模式AP_IF为作为热点
+    wifi.active(True) # 将wifi激活
+    wifi.connect('<essid>','<password>') #连接至wifi
+
     import upip
     upip.install('emp-marlene')
 
